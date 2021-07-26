@@ -611,7 +611,7 @@ abstract class grade_export {
         $formdata = new \stdClass();
         $formdata->id = $id;
         $formdata->itemids = self::convert_flat_itemids_to_array($itemids);
-        $formdata->exportfeedback = $exportfeedback;
+        $formdata->export_feedback = $exportfeedback;
         $formdata->export_onlyactive = $onlyactive;
         $formdata->display = self::convert_flat_displaytypes_to_array($displaytype);
         $formdata->decimals = $decimalpoints;
